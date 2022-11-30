@@ -1,0 +1,28 @@
+table, th, td {
+    border: 1px solid;
+  }
+
+  table {
+    border: 1px solid;
+    width: 50%;
+    text-align: center;
+    
+    border-spacing: 5px;
+
+    empty-cells: show;
+  }
+
+  tr:hover {background-color: coral;}
+
+  th, td {
+    border: 1px solid rgb(40, 54, 187);
+  }
+
+  th {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+
+  tr:nth-child(even) {background-color: #f2f2f2;}
